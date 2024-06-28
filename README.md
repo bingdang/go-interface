@@ -1,6 +1,6 @@
 ## 电商推荐引擎流程
 ### 整体流程
-![rec]https://cakepanit.com/images/pasted-333.png
+![rec](https://cakepanit.com/images/pasted-333.png)
 
 1. 对召回、排序、过滤分别定义接口
    - 召回接口：`recall/recaller.go`
