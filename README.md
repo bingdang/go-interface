@@ -1,6 +1,6 @@
 ## 电商推荐引擎流程
 ### 整体流程
-`召回商品 -> 排序 -> 过滤`
+![rec]https://cakepanit.com/images/pasted-333.png
 
 1. 对召回、排序、过滤分别定义接口
    - 召回接口：`recall/recaller.go`
@@ -20,7 +20,7 @@
    - 过滤的具体实现：
      - 按照评价进行过滤：`filter/ratio_filter.go`
 5. 使用具体的实现，将具体的实现赋值给Recommender结构体
-   - rec.go/main()
+   - `rec.go/main()`
 
 ```go
 ~/go/src/go-interface main !1 ?1 ❯ go run ./
